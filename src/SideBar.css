@@ -1,0 +1,45 @@
+.sidebar{
+  width: 18vw;
+  height: 85vh;
+  position: sticky;
+  top: 4rem;
+  bottom: 4rem;
+  padding: 4rem 2rem;
+  border-radius: 2rem;
+  background: #1f2123;
+  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+}
+.sidebar-content{
+  color: #f9d3b4;
+}
+.side{
+  font-size: 3rem;
+  letter-spacing: 0.9px;
+  background: linear-gradient(
+    90deg,
+    rgba(249, 211, 180, 1) 0%,
+    rgba(249, 211, 180, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;;
+}
+.categories{
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+.categories .cont {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.cont:hover {
+  border-color: #f9d3b4;
+  font-size: 20px;
+  border-radius: 10px;
+  background: #1f2123;
+  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+}
